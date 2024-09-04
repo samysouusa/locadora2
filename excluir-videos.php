@@ -13,7 +13,7 @@
     } elseif ($resposta === "nao") {
         header('Location: index.php?menu=videos');
     } else {
-        ?>
+    ?>
         <div class="alert alert-danger col-12 col-sm-6" role="alert">
             <h4 class="alert-heading bi bi-question-diamond-fill"> Excluir Vídeo</h4>
             <hr>
@@ -25,10 +25,10 @@
                     class="btn btn-secondary m-4">Não</a>
 
             </div>
-            <?php
+        <?php
     }
 
 
-    ?>
+        ?>
 
-    </div>
+        </div>

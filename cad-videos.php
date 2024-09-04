@@ -42,11 +42,11 @@
                     $rs = mysqli_query($conexao, $sql);
                     while ($dados = mysqli_fetch_assoc($rs)) {
 
-                        ?>
+                    ?>
                         <option value="<?= $dados["idCategoria"] ?>">
                             <?= $dados["nomeCategoria"] ?>
                         </option>
-                        <?php
+                    <?php
                     }
                     ?>
                 </select>

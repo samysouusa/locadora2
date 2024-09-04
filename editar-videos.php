@@ -60,12 +60,12 @@ $dados = mysqli_fetch_assoc($rs);
                     $sql = "SELECT * FROM tbcategorias order by nomeCategoria ASC";
                     $rs = mysqli_query($conexao, $sql);
                     while ($dados2 = mysqli_fetch_assoc($rs)) {
-                        ?>
+                    ?>
                         <option <?php echo ($dados["idCategoria"] == $dados2["idCategoria"]) ? "selected" : "" ?>
                             value="<?= $dados2["idCategoria"] ?>">
                             <?= $dados2["nomeCategoria"] ?>
                         </option>
-                        <?php
+                    <?php
                     }
                     ?>
                 </select>

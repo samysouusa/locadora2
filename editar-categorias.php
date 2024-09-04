@@ -9,7 +9,7 @@ $dados = mysqli_fetch_assoc($rs);
     <h2>Editar categoria</h2>
 
     <form action="index.php?menu=atualizar-categorias" method="post">
-    <div class="mb-3 col-12 col-sm-2">
+        <div class="mb-3 col-12 col-sm-2">
             <label class="form-label" for="idCategoria">ID</label>
             <div class="input-group">
                 <div class="input-group-text">
@@ -29,7 +29,7 @@ $dados = mysqli_fetch_assoc($rs);
                     value="<?= $dados['nomeCategoria'] ?>" required>
             </div>
         </div>
-    
+
         <div class="mb-3">
             <button class="btn btn-success bi bi-floppy-fill" type="submit"> Salvar</button>
         </div>

@@ -1,11 +1,10 @@
 <div class="container">
-    <h2 class="bi bi-bookmark-plus">Lista de Categorias</h2>
+    <h2 class="sbi bi-bookmark-plus">Lista de Categorias</h2>
     <div class="mb-3">
-        <a class="btn btn-secondary" href="index.php?menu=cad-categorias">Cadastrar nova Categoria</a>
+        <a class="btn btn-secondary" href="index.php?menu=cad-categorias">Cadastrar nova categoria</a>
     </div>
     <div class="mb-3">
         <?php
-        //$txtPesquisa = (isset($_POST["txtPesquisa"]))?$_POST["txtPesquisa"]:"";
         if (isset($_POST["txtPesquisa"])) {
             $txtPesquisa = $_POST["txtPesquisa"];
         } else {
