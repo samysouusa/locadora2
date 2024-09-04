@@ -4,6 +4,7 @@ $idCategoria = $_POST["idCategoria"];
 $nomeCategoria = $_POST["nomeCategoria"];
 
 
+
 $sql = "update tbCategorias set 
 nomeCategoria='{$nomeCategoria}'
 
