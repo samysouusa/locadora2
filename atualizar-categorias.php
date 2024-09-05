@@ -18,7 +18,7 @@ if ($rs) {
     <div class="alert alert-success" role="alert">
         <h4 class="alert-heading">Atualizando registro</h4>
         <p>Registro atualizado com sucesso!</p>
-        <p>Clique <a href="index.php?menu=categorias" class="alert-link">aqui</a> para a lista de categorias.</p>
+        <p>Clique <a href="index.php?menu=categorias" class="alert-link">aqui</a> para voltar à de categorias.</p>
     </div>
 <?php
 } else {

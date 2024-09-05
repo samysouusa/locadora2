@@ -1,5 +1,5 @@
 <div class="container">
-    <h2 class="sbi bi-people">Lista de Clientes</h2>
+    <h2 class="sbi bi-people"> Lista de Clientes</h2>
     <div class="mb-3">
         <a class="btn btn-secondary" href="index.php?menu=cad-clientes">Cadastrar novo cliente</a>
     </div>

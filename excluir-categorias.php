@@ -7,7 +7,9 @@
 
     if ($resposta === "sim") {
         $sql = "delete from tbcategorias where idCategoria = '{$idCategoria}'";
+
         $rs = mysqli_query($conexao, $sql);
+        
         header('Location: index.php?menu=categorias');
     } elseif ($resposta === "nao") {
         header('Location: index.php?menu=categorias');

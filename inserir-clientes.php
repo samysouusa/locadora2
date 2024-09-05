@@ -1,5 +1,5 @@
 <div class="container">
-    <h2 class="bi bi-people"><i class="bi bi-plus"></i>Inserir Cliente</h2>
+    <h2 class="bi bi-people"><i class="bi bi-plus"></i> Inserir Cliente</h2>
     <?php
     $nomeCliente = $_POST["nomeCliente"];
     $telefoneCliente = $_POST["telefoneCliente"];
@@ -24,7 +24,7 @@
         <div class="alert alert-success" role="alert">
             <h4 class="alert-heading">Adicionando novo registro</h4>
             <p>Registro inserido com sucesso!</p>
-            <p>Clique <a href="index.php?menu=clientes" class="alert-link">aqui</a> para a lista de clientes.</p>
+            <p>Clique <a href="index.php?menu=clientes" class="alert-link">aqui</a> para voltar à lista de clientes.</p>
         </div>
     <?php
     } else {

@@ -1,5 +1,5 @@
 <div class="container">
-    <h2 class="sbi bi-bookmark-plus">Lista de Categorias</h2>
+    <h2 class="sbi bi-bookmark-plus"> Lista de Categorias</h2>
     <div class="mb-3">
         <a class="btn btn-secondary" href="index.php?menu=cad-categorias">Cadastrar nova categoria</a>
     </div>

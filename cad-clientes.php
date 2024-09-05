@@ -1,5 +1,5 @@
 <div class="container">
-    <h2 class="bi bi-people"><i class="bi bi-plus">Cadastro de novo Cliente</h2>
+    <h2 class="bi bi-people"><i class="bi bi-plus"> Cadastro de novo Cliente</h2>
 
     <form action="index.php?menu=inserir-clientes" method="post">
         <div class="mb-3 col-6">
