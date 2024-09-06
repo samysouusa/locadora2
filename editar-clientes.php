@@ -24,7 +24,7 @@
                 <div class="input-group-text">
                     <i class="bi bi-person"></i>
                 </div>
-                <input class="form-control" type="text" name="nomeCliente" id="nomeCliente" required>
+                <input class="form-control" type="text" name="nomeCliente" id="nomeCliente" value="<?= $dados['nomeCliente'] ?>" required>
             </div>
         </div>
         <div class="mb-3 col-6">
@@ -33,7 +33,7 @@
                 <div class="input-group-text">
                     <i class="bi bi-telephone"></i>
                 </div>
-                <input class="form-control" type="text" name="telefoneCliente" id="telefoneCliente" required>
+                <input class="form-control" type="text" name="telefoneCliente" id="telefoneCliente" value="<?= $dados['telefoneCliente'] ?>" required>
             </div>
         </div>
         <div class="mb-3 col-6">
@@ -42,7 +42,7 @@
                 <div class="input-group-text">
                     <i class="bi bi-envelope"></i>
                 </div>
-                <input class="form-control" type="email" name="emailCliente" id="emailCliente" required>
+                <input class="form-control" type="email" name="emailCliente" id="emailCliente" value="<?= $dados['emailCliente'] ?>" required>
             </div>
         </div>
 
